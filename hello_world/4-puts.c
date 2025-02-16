@@ -2,7 +2,7 @@
 /**
 *main entry point of program
 *
-* Description: This function prints a message to the screen, explaining the analogy of buildina multilingual puzzle.
+* Description: This function prints a message to the screen.
 *
 * Return: Always 0 (success)
 */
