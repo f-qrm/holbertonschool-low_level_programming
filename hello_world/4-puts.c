@@ -1,11 +1,9 @@
 #include <stdio.h>
 /**
-*main entry point of program
-*
-* Description: This function prints a message to the screen.
-*
-* Return: Always 0 (success)
-*/
+ * main  - Prints "Programming is like building a multilingual puzzle
+ *
+ * Return: Always 0 (success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
