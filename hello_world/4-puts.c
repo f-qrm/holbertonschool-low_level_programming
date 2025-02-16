@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-*main entrry point of program
+*main entry point of program
 *
 * Description: This function prints a message to the screen.
 *
