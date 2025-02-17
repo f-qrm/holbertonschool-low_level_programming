@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  *main - Prints the sizes of various types on the computer it is compiled
- *
- *Return : Always 0
+ *and run on
+ *Return: Always 0
  */
 int main(void)
 {
