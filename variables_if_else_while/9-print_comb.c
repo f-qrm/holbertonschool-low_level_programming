@@ -19,7 +19,7 @@ int main(void)
 	numbers++;
 	{
 		putchar(' ');
-		putchar('$\n');
+		putchar('\n');
 	}
 	return (0);
 }
