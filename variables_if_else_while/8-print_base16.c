@@ -7,14 +7,14 @@
 int main(void)
 {
 	char nombre = 48;
-	char lettre = 65;
+	char lettre = 97;
 
 	while (nombre <= 57)
 	{
 		putchar(nombre);
 		nombre++;
 	}
-	while (lettre <= 70)
+	while (lettre <= 102)
 	{
 		putchar(lettre);
 		lettre++;
