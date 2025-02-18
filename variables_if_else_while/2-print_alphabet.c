@@ -10,7 +10,8 @@ int main(void)
 
 	while (lettre <= 122)
 	{
-		printf("%c\n", lettre);
+		putchar(lettre);
+		putchar('\n');
 		lettre++;
 	}
 	return (0);
