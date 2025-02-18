@@ -8,10 +8,10 @@ int main(void)
 {
 	char lettre = 122;
 
-	while (lettre <= 97)
+	while (lettre >= 97)
 	{
 		putchar(lettre);
-		lettre++;
+		lettre--;
 	}
 	{
 		putchar('\n');
