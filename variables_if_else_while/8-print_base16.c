@@ -6,12 +6,18 @@
  */
 int main(void)
 {
-	char nombre = 0;
+	char nombre = 48;
+	char lettre = 65;
 
-	while (nombre <= 16)
+	while (nombre <= 57)
 	{
 		putchar(nombre);
 		nombre++;
+	}
+	while (lettre <= 70)
+	{
+		putchar(lettre);
+		lettre++;
 	}
 	{
 		putchar('\n');
