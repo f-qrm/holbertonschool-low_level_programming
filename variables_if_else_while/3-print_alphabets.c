@@ -7,21 +7,20 @@
 int main(void)
 {
 	char lettre = 97;
+	char lettreM = 65;
 
 	while (lettre <= 122)
 	{
 		putchar(lettre);
 		lettre++;
 	}
-	{
-		putchar('\n');
-	}
-	char lettreM = 65;
-
 	while (lettreM <= 90)
 	{
 		putchar(lettreM);
 		lettreM++;
+	}
+	{
+		putchar('\n');
 	}
 	return (0);
 }
