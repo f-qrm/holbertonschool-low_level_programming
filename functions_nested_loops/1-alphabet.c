@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *main - entry point
+ * print_alphabet - prints the alphabet
  *
- *Return: always 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char lettre = 97;
 
@@ -16,5 +15,4 @@ int main(void)
 	{
 		_putchar('\n');
 	}
-	return (0);
 }
