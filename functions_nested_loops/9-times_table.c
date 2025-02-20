@@ -13,7 +13,7 @@ void times_table(void)
 		{
 			rsl = ver * hor;
 
-			if (ver != 9)
+			if (ver != 0)
 			{
 				_putchar(',');
 				_putchar(' ');
