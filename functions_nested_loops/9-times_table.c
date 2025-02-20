@@ -20,7 +20,10 @@ void times_table(void)
 			}
 			if (rsl < 10)
 			{
+				if (ver != 0)
+				{
 				_putchar(' ');
+				}
 				_putchar(rsl + '0');
 			}
 			else
