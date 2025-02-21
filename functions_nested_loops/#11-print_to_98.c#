@@ -1,0 +1,41 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ ** print_to_98 - Print all numbers from a given number to 98.
+ * @n: The starting number.
+ *
+ *Return: always 0
+ */
+void print_to_98(int n)
+{
+	if (n <= 98)
+	{
+	for (; n <= 98; n++)
+	{
+		printf("%d, ", n);
+	}
+	printf("98\n");
+	}
+	if (n > 98; n11-print_to_98.c: In function ‘print_to_98’:
+	    11-print_to_98.c:18:32: error: multi-character character constant [-Werror=multichar]
+	    18 |                         printf(', '"\n");
+	          |                                ^~~~
+	    11-print_to_98.c:18:36: error: expected ‘)’ before string constant
+								18 |                         printf(', '"\n");
+	      |                               ~    ^~~~
+							    |                                    )
+							    11-print_to_98.c:18:32: error: passing argument 1 of ‘printf’ makes pointer from integer without a cast [-Werror=int-conversion]
+							    18 |                         printf(', '"\n");
+      |                                ^~~~
+            |                                |
+							          |                                int
+								  In file included from 11-print_to_98.c:2:
+								  /usr/include/stdio.h:363:43: note: expected ‘const char * __restrict__’ but argument is of type ‘int’
+								  363 | extern int printf (const char *__restrict __format, ...);
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+      11-print_to_98.c:18:25: error: format not a string literal and no format arguments [-Werror=format-security]
+      18 |                         printf(', '"\n");
+      |                         ^~~~~~
+      cc1: all warnings being treated as errors
+      fjolla-qerimi@Fjolla:~/holbertonschool-low_level_programming/functions_nested_loops
+}
