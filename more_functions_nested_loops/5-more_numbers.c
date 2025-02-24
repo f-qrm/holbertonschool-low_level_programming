@@ -10,7 +10,7 @@ void more_numbers(void)
 
 	while (rpt <= 9)
 	{
-		nombre = 0;
+		nombre = 48;
 		while (nombre <= 57)
 		{
 			_putchar(nombre);
