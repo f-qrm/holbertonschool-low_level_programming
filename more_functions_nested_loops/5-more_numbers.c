@@ -13,9 +13,11 @@ void more_numbers(void)
 		nombre = 0;
 		while (nombre <= 14)
 		{
-			_putchar(nombre);
-			nombre++;
-		}
+		if (nombre >= 10)
+			_putchar ((nombre / 10) + '0');
+		_putchar((nombre % 10) + '0');
+		nombre++;
+	}
 		_putchar('\n');
 		rpt++;
 	}
