@@ -10,8 +10,8 @@ void more_numbers(void)
 
 	while (rpt <= 9)
 	{
-		nombre = 48;
-		while (nombre <= 57)
+		nombre = 0;
+		while (nombre <= 14)
 		{
 			_putchar(nombre);
 			nombre++;
