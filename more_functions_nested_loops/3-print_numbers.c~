@@ -1,0 +1,18 @@
+#include "main.h"
+/**
+ * print_numbers - prints the numbers
+ *
+ *
+ */
+void print_numbers(void)
+{
+	char nombre = 48;
+	while (nombre <= 57)
+	{
+		_putchar(nombre);
+		nombre++;
+	}
+	{
+		_putchar('\n');
+	}
+}
