@@ -1,0 +1,16 @@
+#include "main.h"
+/**
+ * print_lines - prints a line of underscores or a newline character
+ *@n: the numbers of times to print the underscore character
+ */
+void print_line(int n)
+{
+	if (n  <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		_putchar('_');
+	}
+}
