@@ -1,6 +1,7 @@
 #include "main.h"
 /**
- *_sqrt_recursion_ - a helper function that recursively cheks for square root
+ *_sqrt_recursion_helper - a helper function that recursively
+ * cheks for square root
  *@n: the number to find the squar root of
  *@x: the current numer to check if its square is equal to n
  *Return: The square root of n if it exists, otherwise -1
