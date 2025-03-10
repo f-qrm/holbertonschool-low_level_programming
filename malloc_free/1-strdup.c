@@ -3,17 +3,18 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * 
- * 
- * 
+ * _strdup - Duplicates a string by allocating new memory and copying
+ * the string into it.
+ *@str: The string to be duplicated.
+ *Return: A pointer to the newly duplicated string, or NULL if allocation
+ *fails or if str is NULL.
  */
 char *_strdup(char *str)
-{
-    int i;
+{	int i;
 	int length = 0;
 	char *dstr;
 
-	if(str == NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
@@ -22,11 +23,11 @@ char *_strdup(char *str)
 		length++;
 	}
 	dstr = malloc((length + 1) * sizeof(char));
-	if(dstr == NULL)
+	if (dstr == NULL)
 	{
-		return(NULL);
+		return (NULL);
 	}
-	for(i = 0; i < length; i++)
+	for (i = 0; i < length; i++)
 	{
 		dstr[i] = str[i];
 	}
