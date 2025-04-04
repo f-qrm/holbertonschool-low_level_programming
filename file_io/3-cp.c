@@ -52,14 +52,13 @@ void handle_copy(int fd_from, int fd_to, char *buffer,
 		close_file(fd_to);
 		exit(99);
 	}
-}
-if (b_read == -1)
-{
+	if (b_read == -1)
+	{
 	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 	close_file(fd_from);
 	close_file(fd_to);
 	exit(98);
-}
+	}
 }
 /**
  * copiefile - Manages opening, copying, and closing files
