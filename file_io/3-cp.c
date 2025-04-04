@@ -45,22 +45,20 @@ void handle_copy(int fd_from, int fd_to, char *buffer,
 	while ((b_read = read(fd_from, buffer, 1024)) > 0)
 	{
 		b_written = write(fd_to, buffer, b_read);
+		if (b_read == -1)
+		{
+			dprintf(2, "Error: Can't read from file %s\n", file_from);
+			close_file(fd_from);
+			close_file(fd_to);
+			exit(98);
+		}
 		if (b_written == -1)
 		{
 			dprintf(2, "Error: Can't write to %s\n", file_to);
-			free(buffer);
 			close_file(fd_from);
 			close_file(fd_to);
 			exit(99);
 		}
-	}
-	if (b_read == -1)
-	{
-		dprintf(2, "Error: Can't read from file %s\n", file_from);
-		free(buffer);
-		close_file(fd_from);
-		close_file(fd_to);
-		exit(98);
 	}
 }
 
@@ -72,8 +70,8 @@ void handle_copy(int fd_from, int fd_to, char *buffer,
  */
 int copiefile(const char *file_from, char *file_to)
 {
-	int fd_from, fd_to;
-	char *buffer;
+	int fd_from = -1, fd_to = -1;
+	char buffer[1024];
 
 	check_args(file_from, file_to);
 
@@ -91,19 +89,8 @@ int copiefile(const char *file_from, char *file_to)
 		close_file(fd_from);
 		exit(99);
 	}
-
-	buffer = malloc(1024);
-	if (buffer == NULL)
-	{
-		dprintf(2, "Error: Can't write to %s\n", file_to);
-		close_file(fd_from);
-		close_file(fd_to);
-		exit(99);
-	}
-
 	handle_copy(fd_from, fd_to, buffer, file_from, file_to);
 
-	free(buffer);
 	close_file(fd_from);
 	close_file(fd_to);
 	return (0);
