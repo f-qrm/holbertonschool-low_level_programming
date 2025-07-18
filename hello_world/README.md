@@ -21,6 +21,20 @@ In this project, I learned the basics of compiling a C program using `gcc`, how 
 
 I also added `compile_4-puts.c`, `compile_5-printf.c`, and `compile_6-size.c` files just to test compiling those specific programs.
 
+## Tasks I completed
+
+| Task            | Filename        | Description                                                |
+|-----------------|-----------------|------------------------------------------------------------|
+| Preprocessor    | `0-preprocessor` | Runs a C file through the preprocessor and saves the result |
+| Compiler        | `1-compiler`     | Compiles a C file without linking                          |
+| Assembler       | `2-assembler`    | Generates the assembly code of a C file                    |
+| Name            | `3-name`         | Compiles a C file to an executable named `cisfun`          |
+| Puts            | `4-puts.c`       | Prints a line using `puts`                                 |
+| Printf          | `5-printf.c`     | Prints a formatted line using `printf`                     |
+| Sizeof          | `6-size.c`       | Prints the size of C types using `sizeof`                  |
+| Compile helper  | `compile_4-puts.c`<br>`compile_5-printf.c`<br>`compile_6-size.c` | Commands used to test compilation of each file          |
+
+
 ## What I was allowed to use
 
 - Only `man` or `help` for:
