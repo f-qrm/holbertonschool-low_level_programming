@@ -29,3 +29,5 @@ Each folder focuses on a specific concept or module.
 Each folder contains programs or exercises related to its topic.
 
 ---
+
+This project is part of my training at **Holberton School**.
