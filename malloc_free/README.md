@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/7d564981-cb81-43e7-819a-25ffcfc5bd72" width="40%" height="40%"/>
+</p>
+
 # Dynamic Memory Allocation in C: `malloc` and `free`
 
 ---
@@ -76,3 +80,13 @@ By the end of this project, you should be able to explain, without the help of G
 int *arr = malloc(10 * sizeof(int));
 if (!arr)
     return NULL;
+## `free`
+
+- Frees memory previously allocated by `malloc`.
+- You must **only** call `free` on memory you allocated with `malloc`.
+- After calling `free`, the pointer becomes **dangling** (invalid) and must **not** be reused.
+- To prevent accidental reuse, it’s a good practice to set the pointer to `NULL` after freeing it.
+
+---
+
+*This project is part of my training at **Holberton School**.*
