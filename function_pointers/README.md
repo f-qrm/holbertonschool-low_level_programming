@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="https://github.com/user-attachments/assets/7d564981-cb81-43e7-819a-25ffcfc5bd72" width="40%" height="40%"/>
+</p>
+
 # Function Pointers
 
 ## General
@@ -38,28 +42,6 @@
 | 1           | Array iterator      | 1-array_iterator.c   | Executes a function on each element of an array |
 | 2           | Integer index       | 2-int_index.c        | Searches for an integer in an array using a function pointer |
 | 3           | Get operation func  | 3-get_op_func.c      | Selects the correct operation function based on user input |
-
----
-
-## Project Files
-
-| File/Folder Name       |
-|-----------------------|
-| 0-main.c              |
-| 0-print_name.c        |
-| 1-array_iterator.c    |
-| 1-main.c              |
-| 2-int_index.c         |
-| 2-main.c              |
-| 3-calc.h              |
-| 3-get_op_func.c       |
-| 3-main.c              |
-| 3-op_functions.c      |
-| README.md             |
-| b                     |
-| c                     |
-| calc                  |
-| function_pointers.h    |
 
 ---
 
