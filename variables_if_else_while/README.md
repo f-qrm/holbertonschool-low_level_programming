@@ -1,6 +1,7 @@
 <p align="center">
    <img src="https://github.com/user-attachments/assets/7d564981-cb81-43e7-819a-25ffcfc5bd72" width="40%" height="40%"/>
 </p>
+
 # C - Variables, if, else, while
 
 This project helped me understand the basics of variables, conditions (`if`, `else`), loops (`while`), logical and relational operators, and how to use `printf` to display results in C.
