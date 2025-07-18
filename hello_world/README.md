@@ -11,18 +11,6 @@ In this project, I learned the basics of compiling a C program using `gcc`, how 
 
 ## Tasks I completed
 
-- `0-preprocessor`: a script that runs a C file through the preprocessor and saves the result.
-- `1-compiler`: a script that compiles a C file but does not link.
-- `2-assembler`: a script that generates the assembly code of a C file.
-- `3-name`: a script that compiles a C file and creates an executable named `cisfun`.
-- `4-puts.c`: a C program that prints a line using `puts`.
-- `5-printf.c`: a C program that prints a formatted string using `printf`.
-- `6-size.c`: a C program that prints the size of different C types using `sizeof`.
-
-I also added `compile_4-puts.c`, `compile_5-printf.c`, and `compile_6-size.c` files just to test compiling those specific programs.
-
-## Tasks I completed
-
 | Task            | Filename        | Description                                                |
 |-----------------|-----------------|------------------------------------------------------------|
 | Preprocessor    | `0-preprocessor` | Runs a C file through the preprocessor and saves the result |
@@ -32,7 +20,8 @@ I also added `compile_4-puts.c`, `compile_5-printf.c`, and `compile_6-size.c` fi
 | Puts            | `4-puts.c`       | Prints a line using `puts`                                 |
 | Printf          | `5-printf.c`     | Prints a formatted line using `printf`                     |
 | Sizeof          | `6-size.c`       | Prints the size of C types using `sizeof`                  |
-| Compile helper  | `compile_4-puts.c`<br>`compile_5-printf.c`<br>`compile_6-size.c` | Commands used to test compilation of each file          |
+
+I also added `compile_4-puts.c`, `compile_5-printf.c`, and `compile_6-size.c` files just to test compiling those specific programs.
 
 
 ## What I was allowed to use
