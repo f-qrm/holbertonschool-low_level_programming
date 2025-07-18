@@ -67,4 +67,6 @@ By doing this project, I can now explain:
 
 ---
 
+✅ This project is part of my training at **Holberton School**.
+
 This project helped me understand how C code goes from source to executable, and how to follow strict coding style rules from the beginning.
