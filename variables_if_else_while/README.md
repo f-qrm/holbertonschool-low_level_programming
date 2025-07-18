@@ -70,3 +70,7 @@ By completing this project, I learned:
 ---
 
 This project helped me practice basic logic and output in C using conditions, loops, and variables. I also got more comfortable with the Betty style and compiling with strict flags.
+
+---
+
+✅ This project is part of my training at **Holberton School**.
