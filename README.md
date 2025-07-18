@@ -1,7 +1,8 @@
-# holbertonschool-low_level_programming
 <p align="center">
    <img src="https://github.com/user-attachments/assets/7d564981-cb81-43e7-819a-25ffcfc5bd72" width="40%" height="40%"/>
 </p>
+
+# holbertonschool-low_level_programming
 
 This repository contains several C programming projects completed as part of my training.  
 Each folder focuses on a specific concept or module.
